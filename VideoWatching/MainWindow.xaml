@@ -1,0 +1,16 @@
+﻿<Window x:Class="VideoWatching.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VideoWatching"
+        mc:Ignorable="d"
+        Title="Vídeo Automático" Height="238.026" Width="402.106">
+    <Grid Margin="0,0,2,8">
+        <Button x:Name="btnExecutar" Content="Executar" Height="24" Margin="218,142,-24,-51" VerticalAlignment="Top" HorizontalAlignment="Left" Width="81" Click="btnExecutar_Click"/>
+        <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Height="23" Margin="110,38,-310,-11" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="txtSenha" HorizontalAlignment="Left" Height="23" Margin="110,78,-188,-51" TextWrapping="Wrap" VerticalAlignment="Top" Width="78" KeyUp="txtxSenha_KeyUp" TextChanged="txtSenha_TextChanged"/>
+        <Label Content="Usuário" HorizontalAlignment="Left" Height="23" Margin="36,43,-89,-16" VerticalAlignment="Top" Width="53"/>
+        <Label Content="Senha" HorizontalAlignment="Left" Height="24" Margin="36,78,-91,-52" VerticalAlignment="Top" Width="55"/>
+    </Grid>
+</Window>
